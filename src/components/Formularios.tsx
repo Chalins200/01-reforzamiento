@@ -15,7 +15,7 @@ export const Formularios = () => {
             type='text'
             className='form-control'
             placeholder='Email'
-            value={ email }
+            value={email}
             onChange={({ target }) => onChange( target.value, 'email')}
         ></input>
 
